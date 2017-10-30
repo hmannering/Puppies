@@ -1,0 +1,40 @@
+body {
+font-family: Arial, Verdana,cursive, sans-serif;
+color:#00ffee;
+padding:10px;
+}
+
+h1 {
+  padding:inherit;
+  color:#00ffee;
+}
+
+img {
+  border-radius: 50%;
+}
+
+img.p1 {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.cuties {
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ padding: 5px;
+ width: 150px;
+ }
+
+ img.cuties {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img.cuties:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
